@@ -40,6 +40,7 @@ const cat = {
     affection: function(){
         if(this.happiness <= 10){
             console.log(chalk.green('meow... prrr :3😸😻'));
+            return this.happiness++;
         };
         return 0;
     },
