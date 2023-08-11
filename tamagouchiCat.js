@@ -38,7 +38,7 @@ const cat = {
 
     //Show your affection to me, i like this... meoooww :3 ^^
     affection: function(){
-        if(this.happiness <= 10){
+        if(this.happiness < 10){
             console.log(chalk.green('meow... prrr :3😸😻'));
             return this.happiness++;
         };
